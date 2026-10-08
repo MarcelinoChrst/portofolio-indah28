@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Indah Sri Setiawati | SMK Krian 1 Sidoarjo</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header & Navigasi -->
+    <header class="bilah-navigasi">
+        <div class="wadah nav-kontainer">
+            <a href="#beranda" class="logo-merek">
+                <i class="fa-solid fa-leaf"></i> Indah.<span></span>
+            </a>
+
+            <!-- Tombol Toggle Mobile -->
+            <button class="tombol-menu" id="tombol-menu" aria-label="Buka Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Menu Navigasi -->
+            <nav class="menu-navigasi" id="menu-navigasi">
+                <ul>
+                    <li><a href="#beranda" class="tautan-nav">Beranda</a></li>
+                    <li><a href="#tentang" class="tautan-nav">Tentang</a></li>
+                    <li><a href="#skills" class="tautan-nav">Skills</a></li>
+                    <li><a href="#proyek" class="tautan-nav">Proyek</a></li>
+                    <li><a href="#kontak" class="tautan-nav">Kontak</a></li>
+                </ul>
+            </nav>
+
+            <!-- Tombol Ganti Tema -->
+            <button class="tombol-tema" id="tombol-tema" title="Ganti Mode Tema">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section Hero / Beranda -->
+        <section class="bagian-hero" id="beranda">
+            <div class="wadah kisi-tentang">
+                <div class="bingkai-foto">
+                    <div class="foto-profil">
+                        <img src="https://i.imgur.com/EV1bu0A.jpeg" alt="Foto Indah Sri Setiawati">
+                    </div>
+                    <div class="lencana-jurusan">
+                        <i class="fa-solid fa-code"></i> RPL 3
+                    </div>
+                </div>
+
+                <div class="teks-tentang">
+                    <span class="lencana-subjudul"><i class="fa-solid fa-seedling"></i> Halo, Selamat Datang!</span>
+                    <h1 class="judul-nama">Saya <span class="teks-sorot">Indah Sri Setiawati</span></h1>
+                    <p class="deskripsi-sekolah">
+                        Siswa kelas <strong>X RPL 3</strong> di <strong>SMK Krian 1 Sidoarjo</strong>. Saya memasuki jurusan RPL (Rekayasa Perangkat Lunak) untuk mendalami pembuatan website modern, antarmuka pengguna (UI/UX), serta pemrograman web.
+                    </p>
+
+                    <div class="aksi-tombol">
+                        <a href="#proyek" class="tombol-utama">Lihat Proyek <i class="fa-solid fa-arrow-down"></i></a>
+                        <a href="#kontak" class="tombol-sekunder">Hubungi Saya</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Tentang Saya -->
+        <section class="bagian-tentang" id="tentang">
+            <div class="wadah">
+                <div class="header-bagian">
+                    <span class="lencana-subjudul"><i class="fa-solid fa-user"></i> Kenali Saya</span>
+                    <h2>About Me</h2>
+                </div>
+
+                <div class="kartu-hobi">
+                    <div class="ikon-hobi">
+                        <i class="fa-solid fa-person-biking"></i>
+                    </div>
+                    <div class="konten-hobi">
+                        <h3>Bersepeda & Refleksi Diri</h3>
+                        <p>
+                            Bersepeda adalah hobi saya sekaligus cara sederhana untuk menjaga kesehatan dan kebahagiaan, mengurangi stres, serta merasa lebih rileks. Saya juga bisa menikmati pemandangan yang indah, seperti persawahan dan suasana kota di pagi hari, sambil menghirup udara segar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Skills -->
+        <section class="bagian-skills" id="skills">
+            <div class="wadah">
+                <div class="header-bagian">
+                    <span class="lencana-subjudul"><i class="fa-solid fa-screwdriver-wrench"></i> Kemampuan Teknis</span>
+                    <h2>Keahlian & Skills</h2>
+                    <p>Teknologi dan kemampuan yang dipelajari dalam mata pelajaran PPLG di SMK Krian 1 Sidoarjo.</p>
+                </div>
+
+                <div class="kisi-skills">
+                    <!-- Skill Item 1 -->
+                    <div class="kartu-skill">
+                        <div class="header-skill">
+                            <i class="fa-brands fa-html5 ikon-html"></i>
+                            <h3>HTML</h3>
+                        </div>
+                        <p>Struktur halaman web semantik dan pemformatan elemen standar UI/UX.</p>
+                        <div class="bilah-progres">
+                            <div class="kemajuan" style="width: 85%;"></div>
+                        </div>
+                        <span class="persen-skill">75%</span>
+                    </div>
+
+                    <!-- Skill Item 2 -->
+                    <div class="kartu-skill">
+                        <div class="header-skill">
+                            <i class="fa-brands fa-css3-alt ikon-css"></i>
+                            <h3>CSS</h3>
+                        </div>
+                        <p>Styling warna, tipografi, serta penataan tata letak menggunakan Flexbox dan Grid.</p>
+                        <div class="bilah-progres">
+                            <div class="kemajuan" style="width: 80%;"></div>
+                        </div>
+                        <span class="persen-skill">70%</span>
+                    </div>
+
+                    <!-- Skill Item 3 -->
+                    <div class="kartu-skill">
+                        <div class="header-skill">
+                            <i class="fa-brands fa-square-js ikon-js"></i>
+                            <h3>JavaScript Dasar</h3>
+                        </div>
+                        <p>Interaktivitas DOM, event listener, menu toggle, serta logika dasar.</p>
+                        <div class="bilah-progres">
+                            <div class="kemajuan" style="width: 70%;"></div>
+                        </div>
+                        <span class="persen-skill">60%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Proyek (Disesuaikan persis dengan persyaratan tugas sekolah) -->
+        <section class="bagian-proyek" id="proyek">
+            <div class="wadah">
+                <div class="header-bagian">
+                    <span class="lencana-subjudul"><i class="fa-solid fa-folder-open"></i> Portfolio PPLG</span>
+                    <h2>Daftar Proyek Portofolio</h2>
+                    <p>Mini project pengembangan perangkat lunak sesuai dengan standar materi uji STS Ganjil.</p>
+                </div>
+
+                <div class="kisi-proyek">
+                    <!-- Kartu Proyek 1 -->
+                    <article class="kartu-proyek">
+                        <div class="gambar-proyek">
+                            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=600&q=80" alt="Mini Project Portofolio UI/UX">
+                            <span class="kategori-proyek">Web Design</span>
+                        </div>
+                        <div class="konten-proyek">
+                            <h3>Mini Project Portofolio UI/UX</h3>
+                            <p>Pembuatan website portofolio pribadi berbasis HTML, CSS Flexbox/Grid, dan JavaScript responsif dengan tema alam.</p>
+                            <div class="label-teknologi">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Kartu Proyek 2 -->
+                    <article class="kartu-proyek">
+                        <div class="gambar-proyek">
+                            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&q=80" alt="Desain Landing Page Alam">
+                            <span class="kategori-proyek">UI/UX Layout</span>
+                        </div>
+                        <div class="konten-proyek">
+                            <h3>Landing Page Wisata Alam</h3>
+                            <p>Halaman promosi sederhana menggunakan struktur HTML semantik serta perpaduan warna tema alam segar.</p>
+                            <div class="label-teknologi">
+                                <span>HTML Semantik</span>
+                                <span>CSS Flexbox</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Kartu Proyek 3 -->
+                    <article class="kartu-proyek">
+                        <div class="gambar-proyek">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80" alt="Aplikasi Interaktif JS">
+                            <span class="kategori-proyek">JavaScript DOM</span>
+                        </div>
+                        <div class="konten-proyek">
+                            <h3>Web Interaktif & Menu Toggle</h3>
+                            <p>Sistem interaksi manipulasi DOM dasar untuk mengubah tema halaman (Dark/Light Mode) dan navigasi responsif.</p>
+                            <div class="label-teknologi">
+                                <span>JavaScript</span>
+                                <span>DOM Event</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Kontak -->
+        <section class="bagian-kontak" id="kontak">
+            <div class="wadah">
+                <div class="header-bagian">
+                    <span class="lencana-subjudul"><i class="fa-solid fa-envelope"></i> Mari Terhubung</span>
+                    <h2>Kontak Saya</h2>
+                    <p>Silakan hubungi saya untuk informasi lebih lanjut mengenai proyek web portofolio ini.</p>
+                </div>
+
+                <div class="kisi-kontak">
+                    <div class="kartu-kontak">
+                        <div class="ikon-kontak"><i class="fa-solid fa-envelope"></i></div>
+                        <h3>Email</h3>
+                        <p>indahsrisetiawati63@gmail.com</p>
+                    </div>
+
+                    <div class="kartu-kontak">
+                        <div class="ikon-kontak"><i class="fa-solid fa-location-dot"></i></div>
+                        <h3>Sekolah</h3>
+                        <p>SMK Krian 1 Sidoarjo, Jawa Timur</p>
+                    </div>
+
+                    <div class="kartu-kontak">
+                        <div class="ikon-kontak"><i class="fa-solid fa-share-nodes"></i></div>
+                        <h3>Media Sosial</h3>
+                        <div class="tautan-sosmed">
+                            <a href="https://www.instagram.com/iindaah_nd/" aria-label="Instagram: iindaah_nd"><i class="fa-brands fa-instagram"></i> <span style="font-size: .75rem;">iindaah_nd</span></a>
+                            <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-utama">
+        <div class="wadah konten-footer">
+            <p>&copy; 2026 Indah Sri Setiawati — X RPL 3 SMK Krian 1 Sidoarjo. All rights reserved.</p>
+            <p class="teks-kecil">Mini Project Portofolio UI/UX</p>
+        </div>
+    </footer>
+
+    <!-- Tombol Scroll to Top -->
+    <button class="tombol-ke-atas" id="tombol-ke-atas" aria-label="Kembali ke atas">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script1.js"></script>
+</body>
+</html>
